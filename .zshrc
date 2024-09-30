@@ -15,6 +15,9 @@ alias tks='tmux kill-session -t'
 alias tkw='tmux kill-window'
 alias tlw='tmux list-windows'
 
+# alias for terminal command
+alias c="clear"
+
 # alias for obsidian
 # start review all the temp notes
 alias or='nvim ~/vaults/inbox/*.md'
