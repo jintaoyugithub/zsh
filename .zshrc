@@ -1,10 +1,6 @@
 alias nv="nvim"
 alias ra='ranger'
-alias gs='git status'
-alias ga='git add'
-alias gc='git commit'
-alias gps='git push'
-alias gpl='git pull'
+alias lg='lazygit'
 
 # alias for tmux
 alias tns='tmux'
@@ -35,3 +31,5 @@ fpath+=("$(brew --prefix)/share/zsh/site-functions")
 autoload -U promptinit; promptinit
 prompt pure
 
+# vulkan sdk
+VULKAN_SDK="$HOME/VulkanSDK/1.4.304.0"
