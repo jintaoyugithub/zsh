@@ -2,6 +2,10 @@ alias nv="nvim"
 alias ra='ranger'
 alias lg='lazygit'
 
+# set default editor
+export VISUAL=nvim;
+export EDITOR=nvim;
+
 # alias for tmux
 alias tns='tmux'
 alias tas='tmux attach-session -t'
@@ -17,7 +21,6 @@ alias c="clear"
 # alias for obsidian
 # start review all the temp notes
 alias or='nvim ~/vaults/inbox/*.md'
-
 
 export MYNVIM=/Users/jintao/.config/nvim/init.vim
 
