@@ -1,10 +1,8 @@
 alias nv="nvim"
 alias ra='ranger'
 alias lg='lazygit'
-
-# set default editor
-export VISUAL=nvim;
-export EDITOR=nvim;
+alias ls='ls -G'
+alias c="clear"
 
 # alias for tmux
 alias tns='tmux'
@@ -15,8 +13,9 @@ alias tks='tmux kill-session -t'
 alias tkw='tmux kill-window'
 alias tlw='tmux list-windows'
 
-# alias for terminal command
-alias c="clear"
+# set default editor
+export VISUAL=nvim;
+export EDITOR=nvim;
 
 # alias for obsidian
 # start review all the temp notes
